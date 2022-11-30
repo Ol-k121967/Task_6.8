@@ -1,0 +1,102 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background: url('https://img.freepik.com/free-photo/old-newspapers-and-white-background_23-2149318880.jpg?w=2000&t=st=1669022518~exp=1669023118~hmac=c345e54f660122c5fdbab9f9a2a0ad625702a09ce4546a9fc9c0f8f7003f289a') bottom no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color:rgb(42, 126, 222);
+    font-size: 12rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .Links {
+    margin-bottom: 50px;
+}
+
+footer .Links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.copyright {
+    color: rgb(108,117,125);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.news {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(128,128,128);
+}
+
+article a {
+    color: rgb(33,37,41);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: #0085a1;
+}
+
+article h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+}
+
+.article-meta {
+    color: rgb(134,142,150);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+article:nth-child(even) {
+    background: rgb(226, 237, 237);
+  }
+
+article:nth-child(1) h2::before {
+    content: "New  ";
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+  }
+  article:nth-child(2) h2::before {
+    content: "New  ";
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+  }
+
+  article:nth-child(odd) {
+    background: rgb(242, 243, 239);
+  }
